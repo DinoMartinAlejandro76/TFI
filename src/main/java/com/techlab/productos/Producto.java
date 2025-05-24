@@ -14,8 +14,8 @@ public class Producto {
         this.nombre = nombre;
         this.precio = precio;
         this.cantidadStock = cantidadStock;
-        this.id = SIGUIENTE_ID;
-        SIGUIENTE_ID++;
+        this.id = SIGUIENTE_ID++;
+
     }
 
     public void mostrarDetalles() {
